@@ -32,7 +32,11 @@ export default function SignUpForm() {
     }
   };
   return (
-    <form onSubmit={handleSubmit} className="mb-5">
+    <form
+      onSubmit={handleSubmit}
+      className="mb-5"
+      style={{ paddingBottom: '50px' }}
+    >
       <div
         type="text"
         id="login"
